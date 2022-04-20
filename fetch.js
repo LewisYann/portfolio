@@ -109,6 +109,7 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
+      console.log(res.statusCode);
       throw new Error(ERR.requestMediumFailed);
     }
 
