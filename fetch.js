@@ -25,7 +25,7 @@ if (USE_GITHUB_DATA === "true") {
   var data = JSON.stringify({
     query: `
 {
-  user(login:"${GITHUB_USERNAME}") { 
+  user(login:"lewisyann") { 
     name
     bio
     isHireable
@@ -63,7 +63,7 @@ if (USE_GITHUB_DATA === "true") {
     port: 443,
     method: "POST",
     headers: {
-      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Authorization: `Bearer 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`,
       "User-Agent": "Node"
     }
   };
